@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cart</title>
+</head>
+
+<body>
+  <section class="page-2">
+  <div class="top">
+    <div class="fast-food">
+      <img src="Page-2-images/Orange-Subtract.png" alt="logo">
+      <p>FastFood</p>
+    </div>
+    <div class="left-top">
+      <div class="search-div">
+        <input class="search-box" type="text" placeholder="Enter item or resturant you are looking for">
+        <img class="search-icon" src="Page-2-images/search-icon.png" alt="search-icon">
+      </div>
+      <img src="Page-2-images/Bag.png" alt="Bag">
+      <button class="sign-in">Sign in</button>
+    </div>
+  </div>
+  
+  <div class="col-2">
+    <img src="Page-2-images/Rectangle 28.png" alt="pic ">
+    
+    <div>
+      <h2 class="lunchbox">LunchBox - Meals and Thails</h2>
+      <div class="ratings">
+      <div> <img src="Page-2-images/star.png" alt="star">
+      <span>4.0</span>
+        <br>100+ ratings</br></div> 
+     <div>
+        <p>30 Mins
+      <br>Delivery Time</p>
+    </div>
+     <div>
+      <p>&yen; 180
+      <br>Cost for two</p></div>
+    </div>
+      </div>
+  
+  <div class="offers">
+    <h3>Offers</h3>
+    <ul>
+      <li>50% off up to &yen;100| Use code TRYNEW</li>
+      <li>20% off| Use code PARTY</li>
+    </ul>
+  </div>
+  </div>
+  <!-- Menu -->
+  <div class="menu">
+    <div class="item-1">
+      <div class="menu-1">
+        <div class="menu-list">
+        <p class="title">Dal Fry Rice Bowl - Fried With Ghee </p>
+    <p class="price">&yen; 180 </p>
+    <p class="prep">Brunch: One meal to rule them all! Grab this mega saver combo with your choice of 2 veg wraps, Aloo Paratha (2 pcs), chole and Curd lunchbox and 2 choco lava cakes. This is just bliss on a plate!</p>
+  </div>
+    <button class="add">Add +</button>   
+  </div>
+  
+  <div class="menu-1">
+    <div class="menu-list">
+    <p class="title">Dal Fry Rice Bowl - Fried With Ghee </p>
+  <p class="price">&yen; 180 </p>
+  <p class="prep">Brunch: One meal to rule them all! Grab this mega saver combo with your choice of 2 veg wraps, Aloo Paratha (2 pcs), chole and Curd lunchbox and 2 choco lava cakes. This is just bliss on a plate!</p>
+  </div>
+  <button class="add">Add +</button>   
+  </div>
+  </div>
+  <!-- Cart -->
+   <div class="cart">
+      <div class="cart-item">
+      <p class="title head">Cart</p>
+      <p class="price">2 items</p>
+    </div>
+    <div>
+      <p class="rice-dishes">from <span>Rice Dishes</span></p>
+     </div>
+      <div class="bowl">
+        <div >
+          <p>Dal Fry Rice Bowl-Fried <br> With Ghee <br><span>&yen; 180</span></p>
+        </div>
+        <div class="add-drop"> -  1 +</div>
+      </div>
+  
+      <div>
+        <p class="rice-dishes">from <span>Rice Dishes</span></p>
+       </div>
+        <div class="bowl">
+          <div >
+            <p>Paneer Signature Rice<br> Bowl (Regular)<br><span>&yen; 180</span></p>
+          </div>
+          <div class="add-drop"> -  1 +</div>
+        </div>
+        <div>
+          <div class="cart-item total">
+            <p class="title head">Subtotal</p>
+            <p class="title head">&yen; 180</p>
+          </div>
+          <p class="price charges">Extra charges may apply</p>
+         <div class="btn"><button class="checkout" onclick="goToPage()">Checkout</button></div>
+        </div>
+    </div>
+  
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div>
+      <div class="fast-food">
+        <img src="Page-2-images/Subtract.png" alt="Subtract">
+        <p>FastFood</p>
+      </div>
+      <div class="contact">
+        Contact: +91 123456789
+      </div>
+      <div class="icons">
+        <img src="Page-2-images/facebook icon.png" alt="facebook">
+        <img src="Page-2-images/instagram.png" alt="instagram">
+        <img src="Page-2-images/twitter.png" alt="twitter">
+      </div>
+    </div>
+    <div class="policy">
+      <a href="#">About</a>
+      <a href="#">Delivery</a>
+      <a href="#">Help & Support</a>
+      <a href="#">T&C</a>
+    </div>
+  </footer>
+  </section>
+  <script>
+    function goToPage() {
+      window.location.href="checkout.html"; // Replace with your page URL
+    }
+  </script>
+</body>
+</html>
